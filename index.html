@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; img-src 'self' data:; script-src 'self';">
+  <title>Portafolio Profesional - Josias Rivas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="index.html" class="nav__brand">Josias Rivas</a>
+      <ul class="nav__list">
+        <li class="nav__item"><a href="index.html" class="nav__link nav__link--active">Inicio</a></li>
+        <li class="nav__item"><a href="acerca.html" class="nav__link">Acerca de mí</a></li>
+        <li class="nav__item"><a href="proyectos.html" class="nav__link">Proyectos</a></li>
+        <li class="nav__item"><a href="contacto.html" class="nav__link">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-layout main-layout--with-aside">
+    
+    <div class="content-area">
+      
+      <section class="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title" class="hero__title">Josias Rivas</h1>
+        <p class="hero__subtitle">
+          Trabajo como desarrollador en el Ministerio de Salud usando PHP, Laravel, Python y Django, y actualmente estoy en una especializacion en Machine Learning. Cree este portafolio para practicar desarrollo web frontend y mejorar mi nivel en JavaScript.
+        </p>
+        <p>
+          <a href="proyectos.html" class="hero__link">Ir a la lista de mis proyectos &rarr;</a>
+        </p>
+      </section>
+
+      <section class="features" aria-labelledby="features-title">
+        <h2 id="features-title" class="features__title">Lo que estoy trabajando</h2>
+        <div class="features__list">
+          <article class="features__item">
+            <h3 class="features__subtitle">Backend y APIs</h3>
+            <p class="features__text">
+              Desarrollo en el trabajo con PHP y Laravel, ademas de proyectos y servicios en Python con Django.
+            </p>
+          </article>
+          <article class="features__item">
+            <h3 class="features__subtitle">Machine Learning</h3>
+            <p class="features__text">
+              Manejo de datos, modelos y librerias en Python como parte de mi especializacion actual.
+            </p>
+          </article>
+          <article class="features__item">
+            <h3 class="features__subtitle">Frontend y JavaScript</h3>
+            <p class="features__text">
+              Practica de maquetacion semantica, diseno responsivo con CSS y logica en JavaScript.
+            </p>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <aside class="sidebar" aria-label="Información complementaria">
+      <h3 class="sidebar__title">Datos sobre mi</h3>
+      <p class="sidebar__item"><strong>Ubicacion:</strong> Soyapango, El Salvador</p>
+      <p class="sidebar__item"><strong>Trabajo:</strong> Desarrollador en el Ministerio de Salud</p>
+      <p class="sidebar__item"><strong>Stack principal:</strong> PHP, Laravel, Python, Django</p>
+      <p class="sidebar__item"><strong>Estudios:</strong> Especializacion en Machine Learning</p>
+      <p class="sidebar__item"><strong>Interes actual:</strong> Mejorar en JavaScript y Frontend</p>
+    </aside>
+
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">&copy; 2026 Josias Rivas - Portafolio personal</p>
+  </footer>
+
+</body>
+</html>
