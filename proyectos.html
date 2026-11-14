@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; img-src 'self' data:; script-src 'self';">
+  <title>Proyectos - Josias Rivas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="index.html" class="nav__brand">Josias Rivas</a>
+      <ul class="nav__list">
+        <li class="nav__item"><a href="index.html" class="nav__link">Inicio</a></li>
+        <li class="nav__item"><a href="acerca.html" class="nav__link">Acerca de mí</a></li>
+        <li class="nav__item"><a href="proyectos.html" class="nav__link nav__link--active">Proyectos</a></li>
+        <li class="nav__item"><a href="contacto.html" class="nav__link">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-layout">
+    
+    <section class="projects-section" aria-labelledby="projects-title">
+      <h1 id="projects-title" class="projects-section__title">Proyectos</h1>
+      <p class="projects-section__desc">
+        Listado de algunos proyectos desarrollados en el trabajo y durante mis estudios.
+      </p>
+
+      <div class="table-container" tabindex="0" role="region" aria-label="Tabla de proyectos">
+        <table class="table">
+          <thead class="table__head">
+            <tr>
+              <th scope="col" class="table__cell table__cell--header">Nombre del proyecto</th>
+              <th scope="col" class="table__cell table__cell--header">Tecnologías</th>
+              <th scope="col" class="table__cell table__cell--header">Fecha</th>
+              <th scope="col" class="table__cell table__cell--header">Estado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table__cell">SIGEA</td>
+              <td class="table__cell">Python, Django</td>
+              <td class="table__cell">2024</td>
+              <td class="table__cell">Completado</td>
+            </tr>
+            <tr>
+              <td class="table__cell">MaizeDoctor</td>
+              <td class="table__cell">Vue, Python, Kotlin, NotebookLM</td>
+              <td class="table__cell">2025</td>
+              <td class="table__cell">En desarrollo</td>
+            </tr>
+            <tr>
+              <td class="table__cell">SIS</td>
+              <td class="table__cell">PHP, Symfony</td>
+              <td class="table__cell">2016</td>
+              <td class="table__cell">En desarrollo</td>
+            </tr>
+            <tr>
+              <td class="table__cell">Portafolio Web</td>
+              <td class="table__cell">HTML5, CSS3, JavaScript</td>
+              <td class="table__cell">2026</td>
+              <td class="table__cell">En desarrollo</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">&copy; 2026 Josias Rivas - Portafolio personal</p>
+  </footer>
+
+</body>
+</html>
